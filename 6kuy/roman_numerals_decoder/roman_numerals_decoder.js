@@ -26,3 +26,4 @@ function solution(roman) {
 
     return decimal;
 }
+
