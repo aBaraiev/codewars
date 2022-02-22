@@ -52,5 +52,3 @@ class RomanNumerals {
             .reduce((a, b) => a + b);
     }
 }
-
-
