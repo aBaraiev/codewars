@@ -72,7 +72,6 @@ function getFirstNode(nodes) {
 }
 
 function removeNode(nodes, n) {
-
     delete nodes[n];
     for (let key of Object.keys(nodes)) {
         nodes[key].prev.delete(n);
